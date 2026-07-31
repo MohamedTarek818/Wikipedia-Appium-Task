@@ -15,21 +15,18 @@ A mobile test automation framework for the **Wikipedia Android app**, built with
 
 ## 📁 Project Structure
 
-```
-src/main/java
+src/test/java
 ├── base_screen/
 │   └── BaseScreen.java        # Shared wait/find logic for all screens
 ├── base_test/
 │   └── BaseTest.java          # Driver setup & teardown lifecycle
 ├── driver/
 │   └── DriverManager.java     # Appium driver singleton
-└── screens/
-    ├── StartingScreen.java    # Onboarding screens
-    ├── HomeScreen.java        # Home / navigation
-    ├── SearchScreen.java      # Search functionality
-    └── ArticleScreen.java     # Article view, save & reading list
-
-src/test/java
+├── screens/
+│   ├── StartingScreen.java    # Onboarding screens
+│   ├── HomeScreen.java        # Home / navigation
+│   ├── SearchScreen.java      # Search functionality
+│   └── ArticleScreen.java     # Article view, save & reading list
 └── tests/
     └── WikipediaTest.java     # Test scenarios
 ```
