@@ -13,8 +13,8 @@ public class DriverManager {
     public static AndroidDriver getDriver() throws MalformedURLException {
         if (driver == null) {
             UiAutomator2Options options = new UiAutomator2Options();
-            options.setDeviceName("RKCY6009R9A");
-            options.setPlatformVersion("16");
+            options.setDeviceName("deviceName");
+            options.setPlatformVersion("platformVersion");
             options.setAppPackage("org.wikipedia");
             options.setAppActivity("org.wikipedia.main.MainActivity");
             options.setAutomationName("UiAutomator2");
