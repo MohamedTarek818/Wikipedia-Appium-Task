@@ -105,4 +105,4 @@ Update these values to match your local device or emulator before running the te
 
 ## 👤 Author
 
-Mohamed Tarek Hessan
+Mohamed Tarek
