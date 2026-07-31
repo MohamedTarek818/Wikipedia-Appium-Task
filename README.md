@@ -59,7 +59,7 @@ Steps (each annotated with Allure `@Step` for clear reporting):
 
 ## ⚙️ Prerequisites
 
-- Java JDK 11+
+- Java JDK 17+
 - Maven 3.8+
 - Appium Server running locally (`http://127.0.0.1:4723`)
 - Android device/emulator with the **Wikipedia app** (`org.wikipedia`) installed
